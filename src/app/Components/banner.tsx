@@ -50,7 +50,7 @@ export default function Banner() {
                                 <Image src={adImage} alt="images" />
                         </article>
                     </div>
-                    <div className="lg:col-span-6 md:col-span-7 col-span-12 order-[-1] md:order-none">
+                    <div className="lg:col-span-6 md:col-span-7 col-span-12 order-[-1] md:order-none lg:-mx-4">
                         <article>
                             <div className="relative">
                                 <a href="#">
