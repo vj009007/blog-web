@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gza,
+body {
+  font-family: "gza", "pt serif";
+}
+.pt-sans{
+  font-family:  "pt serif", "gza";
+}
+.container {
+  @apply px-4 xl:px-6 mx-auto;
+}
+header {
+  @apply pt-[2rem] pb-0;
+}
+.date-style {
+  @apply text-[#ccc] text-sm font-normal leading-none;
+}
+.date-style span {
+  @apply text-[#303030];
+}
+.header-icons li a {
+  @apply bg-[#f5f5f5] py-3 px-3 text-center flex rounded-md shadow-md items-center justify-center text-base;
+}
+nav.nav-bar .menu li a {
+  @apply text-[.9rem] text-[#303030] font-normal leading-none block px-3 relative pt-5 transition-all;
+}
+nav.nav-bar .menu {
+  @apply flex items-center justify-center xl:gap-4;
+}
+nav.nav-bar {
+  @apply relative
+}
+
+nav.nav-bar .menu li.active a,
+nav.nav-bar .menu li a:hover {
+  @apply text-[#3f3ba6];
+}
+nav.nav-bar .menu li.active a:before {
+  @apply content-[''] absolute top-0 h-[2px] bg-[#3f3ba6] w-full left-0;
+}
+.humbauger{
+  @apply bg-[#f5f5f5] py-3 px-3 text-center flex rounded-md shadow-md items-center justify-center text-base cursor-pointer;
+}
+.bg-img {
+  background-image: url("https://source.unsplash.com/random/239x319");
+}
+img {
+  max-width: 100%;
+}
+.banner article {
+  border-bottom: dashed 1px #e6e6e6;
+}
+.tag-base {
+  @apply text-xs text-[#3f3ba6] tracking-[.5px] uppercase no-underline relative leading-[.85] p-[3px] pt-sans;
+}
+.layout a{
+    transition: background-size .35s, background-position 0s;
+    background: linear-gradient(to right, rgba(188, 185, 255, 0.75), rgba(188, 185, 255, 0.75)) no-repeat right;
+    background-size: 0% auto;
+}
+.layout a:hover {
+  background-size: 100% auto;
+  background-position: left;
+  transition: background-size .35s, background-position 0s;
+}
+h2{
+  @apply text-[1.3333333334rem] text-black leading-[1.18]
+}
+.banner-style img,
+article img {
+  @apply rounded-lg overflow-hidden w-full
+}
+h1{
+  @apply leading-[1.17] xl:text-[2rem] text-[1.7777777778rem] font-medium text-center mt-1 
+}
+a.badge-large{
+  @apply md:text-[1.5rem] rounded-[.25rem] bg-[#bcb9ff] w-[max-content] text-[#262478] px-[.5rem] pt-sans py-1
+}
+h3{
+  @apply text-base leading-[1.18]
+}
+a.badge-small{
+  @apply text-xs rounded-[.25rem] bg-[#bcb9ff] w-[max-content] text-[#262478] px-[.5rem] pt-sans py-1
+}
+button,
+a.badge{
+  @apply rounded-[.25rem] bg-[#bcb9ff] w-[max-content] text-[#262478] px-[.5rem] pt-sans py-1
+}
+button{
+  @apply whitespace-nowrap
+}
+.border-line{
+  @apply relative
+}
+.border-line::before{
+  @apply content-[''] absolute border-l border-dashed border-[#e6e6e6] h-full -left-4 top-0 block
+} 
+article p{
+  @apply mt-8 
+}
+.grid-wrapper article p{
+  @apply mt-4
+}
+.content-text p{
+  @apply pt-sans text-base font-normal
+}
+.grid-wrapper article p{
+  @apply  pt-sans text-sm font-normal
+}
+.content-style img{
+  @apply min-h-[450px] object-cover
+}
+.content-text h2 + p:first-letter{
+  @apply text-[#322da1] text-[50px] leading-[35px] float-start mt-2 me-2 gza
+}
+.overlay-content{
+  @apply absolute bottom-5 px-4 left-0 text-center z-10
+}
+.gallery-grid .relative:after{
+  @apply content-[''] absolute top-0 left-0 w-full h-full bg-[#0000001f] rounded-lg
+}
+
+.gallery-grid .relative{
+  @apply overflow-hidden
+}
+@media(min-width: 1024px) {
+  .content-text h2 + p:first-letter {
+      @apply text-[95px] leading-[75px] mt-1
+  }
+}
+@media (max-width: 1024px) {
+  nav.nav-bar .menu{
+    @apply absolute bg-[#ddd] w-full left-0 px-6 z-10 transition-all  h-0 overflow-hidden
+  }
+  header.active-menu nav.nav-bar .menu{
+    @apply h-auto py-6 block pb-10
+  }
+  nav.nav-bar .menu li.active a:before{
+    @apply hidden 
+  }
+}
