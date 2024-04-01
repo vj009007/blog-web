@@ -45,9 +45,9 @@ export default function Grid() {
                                     <Image src={adImage} alt="images" />
                             </article>
                         </div>
-                        <div className="lg:col-span-6 md:col-span-7 col-span-12 order-[-1] md:order-none">
-                            <div className="grid grid-cols-2 gap-4 gallery-grid">
-                                <div className="grid gap-4">
+                        <div className="lg:col-span-6 md:col-span-7 col-span-12 order-[-1] md:order-none lg:-mx-2">
+                            <div className="grid grid-cols-2 gap-6 gallery-grid">
+                                <div className="grid gap-6">
                                     <div className="relative">
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />
                                         <div className="overlay-content">
@@ -70,7 +70,7 @@ export default function Grid() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="grid gap-4">
+                                <div className="grid gap-6">
                                     <div className="relative">
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
                                         <div className="overlay-content">
@@ -93,7 +93,7 @@ export default function Grid() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="grid gap-4">
+                                <div className="grid gap-6">
                                     <div className="relative">
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="" />
                                         <div className="overlay-content">
@@ -116,7 +116,7 @@ export default function Grid() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="grid gap-4">
+                                <div className="grid gap-6">
                                     <div className="relative">
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
                                         <div className="overlay-content">
