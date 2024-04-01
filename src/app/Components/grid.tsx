@@ -16,7 +16,7 @@ export default function Grid() {
             <section className="banner-style pt-10">
                 <div className="container">
                     <div className="grid grid-cols-12 mx-auto gap-y-6 md:gap-8">
-                        <div className="lg:col-span-3 md:col-span-5 col-span-12 md:border-r border-dashed border-[#e6e6e6] md:pe-4">
+                        <div className="lg:col-span-3 col-span-12 lg:border-r border-dashed border-[#e6e6e6] md:pe-4">
                             <article className="border-b border-dashed border-[#e6e6e6] pb-5 mb-6">
                                 <a href="./single-page">
                                     <Image src={smallImage} alt="images" />
@@ -45,8 +45,8 @@ export default function Grid() {
                                     <Image src={adImage} alt="images" />
                             </article>
                         </div>
-                        <div className="lg:col-span-6 md:col-span-7 col-span-12 order-[-1] md:order-none lg:-mx-2">
-                            <div className="grid grid-cols-2 gap-6 gallery-grid">
+                        <div className="lg:col-span-6 col-span-12 order-[-1] lg:order-none lg:-mx-4">
+                            <div className="grid md:grid-cols-2 grid-cols-1 gap-6 gallery-grid">
                                 <div className="grid gap-6">
                                     <div className="relative">
                                         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />
