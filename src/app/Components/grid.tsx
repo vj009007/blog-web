@@ -143,7 +143,7 @@ export default function Grid() {
                         </div>
                         <div className="lg:col-span-3 col-span-12 lg:border-l border-dashed border-[#e6e6e6] lg:ps-4">
                             <div className="grid gap-3 grid-cols-12 border-b border-dashed border-[#e6e6e6] pb-3 mb-4">
-                                <div className="lg:col-span-5 col-span-6">
+                                <div className="xl:col-span-5 lg:col-span-12 col-span-6">
                                     <div className="relative">
                                         <a href="#">
                                             <Image src={smallImage} alt="images" />
@@ -151,13 +151,13 @@ export default function Grid() {
                                         <a href="##" className="badge-small absolute bottom-4 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-7 col-span-6">
+                                <div className="xl:col-span-7 lg:col-span-12 col-span-6">
                                     <a href="#" className="tag-base">MOVIES</a>
                                     <h3><a href="#">In some school districts, it's the end of the snow day</a></h3>
                                 </div>
                             </div>
                             <div className="grid gap-3 grid-cols-12 border-b border-dashed border-[#e6e6e6] pb-3 mb-4">
-                                <div className="lg:col-span-5 col-span-6">
+                                <div className="xl:col-span-5 lg:col-span-12 col-span-6">
                                     <div className="relative">
                                         <a href="#">
                                             <Image src={smallImage} alt="images" />
@@ -165,13 +165,13 @@ export default function Grid() {
                                         <a href="##" className="badge-small absolute bottom-4 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-7 col-span-6">
+                                <div className="xl:col-span-7 lg:col-span-12 col-span-6">
                                     <a href="#" className="tag-base">MOVIES</a>
                                     <h3><a href="#">In some school districts, it's the end of the snow day</a></h3>
                                 </div>
                             </div>
                             <div className="grid gap-3 grid-cols-12 border-b border-dashed border-[#e6e6e6] pb-3 mb-4">
-                                <div className="lg:col-span-5 col-span-6">
+                                <div className="xl:col-span-5 lg:col-span-12 col-span-6">
                                     <div className="relative">
                                         <a href="#">
                                             <Image src={smallImage} alt="images" />
@@ -179,11 +179,12 @@ export default function Grid() {
                                         <a href="##" className="badge-small absolute bottom-4 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-7 col-span-6">
+                                <div className="xl:col-span-7 lg:col-span-12 col-span-6">
                                     <a href="#" className="tag-base">MOVIES</a>
                                     <h3><a href="#">In some school districts, it's the end of the snow day</a></h3>
                                 </div>
                             </div>
+                            
                             <article className="border-b border-dashed border-[#e6e6e6] pb-5 mb-6">
                                 <a href="#">
                                     <Image src={smallImage} alt="images" /> 
