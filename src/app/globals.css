@@ -136,6 +136,11 @@ article p{
 .ad-slot img{
   @apply lg:max-w-[50%] mx-auto px-4
 }
+@media (max-width: 1280px){
+  .overlay-content h2{
+    @apply text-[17px] leading-5
+  }
+}
 @media(min-width: 1024px) {
   .content-text h2 + p:first-letter {
       @apply text-[95px] leading-[75px] mt-1
