@@ -118,12 +118,23 @@ article p{
 .overlay-content{
   @apply absolute bottom-5 px-4 left-0 text-center z-10
 }
-.gallery-grid .relative:after{
-  @apply content-[''] absolute top-0 left-0 w-full h-full bg-[#0000001f] rounded-lg
+.gallery-grid .grid>.relative:after{
+  @apply content-[''] absolute top-0 left-0 w-full h-full bg-[#00000073] rounded-lg
 }
-
+.overlay-content h2{
+  @apply text-white
+}
+.overlay-content .tag-base{
+  @apply bg-[#bcb9ff] relative z-10 mb-1 inline-block p-2 rounded-lg
+}
 .gallery-grid .relative{
   @apply overflow-hidden
+}
+.ad-slot{
+  @apply bg-black p-3
+}
+.ad-slot img{
+  @apply lg:max-w-[50%] mx-auto px-4
 }
 @media(min-width: 1024px) {
   .content-text h2 + p:first-letter {

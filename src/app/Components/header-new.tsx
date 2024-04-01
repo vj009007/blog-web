@@ -1,8 +1,12 @@
 import Image from "next/image";
-import logo from "./../../../public/logo.svg";
+import Ads from "./../images/header-ad.jpeg";
 export default function HeaderNew() {
 
     return (
+        <>
+        <div className="ad-slot">
+            <Image src={Ads} alt="header Ad" />
+        </div>
       <header>
         <div className="container">
             <div className="flex items-center justify-between pb-4 border-b border-solid border-[#ddd]">
@@ -37,5 +41,6 @@ export default function HeaderNew() {
             
         </div>
       </header>
+      </>
     );
   }
