@@ -58,7 +58,7 @@ export default function Banner() {
                                 </a>
                                 <a href="##" className="badge-large absolute bottom-8 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                             </div>
-                            <div className="lg:px-[5%] px-6 text-center mt-2">
+                            <div className="lg:px-[5%] md:px-6 text-center mt-2">
                                 <a href="#" className="tag-base">MOVIES</a>
                                 <h1><a href="#"> 1st How much does it cost to win Best Picture? Breaking down the biggest and smallest budgets.</a></h1>
                                 
@@ -226,7 +226,7 @@ export default function Banner() {
     
         <section className="py-10">
             <div className="container">
-                <div className="grid gap-8 grid-cols-12">
+                <div className="grid mx-auto grid-cols-12gap-8">
                     <div className="lg:col-span-3 md:col-span-6 col-span-12 border-t border-dashed border-[#e6e6e6] pt-6">
                         <p className="text-[#3f3ba6] mb-4 text-[1.3333333334rem]">News</p>
                         <article>
