@@ -118,6 +118,7 @@ article p{
 .overlay-content{
   @apply absolute bottom-5 px-4 left-0 text-center z-10
 }
+.gallery-grid >.relative:after,
 .gallery-grid .grid>.relative:after{
   @apply content-[''] absolute top-0 left-0 w-full h-full bg-[#00000073] rounded-lg
 }
@@ -158,5 +159,8 @@ article p{
   }
   h3{
     @apply text-lg
+  }
+  .date-style{
+    @apply absolute top-[100px] left-1/2 translate-x-[-50%]
   }
 }

@@ -1,12 +1,17 @@
 import Image from "next/image";
 import logo from "./../../../public/logo.svg";
+import Ads from "./../images/header-ad.jpeg";
 export default function Header() {
 
     return (
-      <header>
+        <>
+    <div className="ad-slot">
+        <Image src={Ads} alt="header Ad" />
+    </div>
+      <header className="relative">
         <div className="container">
             <div className="flex items-center justify-between pb-4 border-b border-solid border-[#ddd]">
-                <div className="date-style hidden lg:block">
+                <div className="date-style block">
                     <span>Thursday,</span> March 21, 2024
                 </div>
                 <div className="max-w-[220px]">
@@ -39,5 +44,6 @@ export default function Header() {
             </nav>
         </div>
       </header>
+      </>
     );
   }

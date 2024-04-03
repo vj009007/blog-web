@@ -1,12 +1,12 @@
 "use client";
-import HeaderNew from "./Components/header-new";
+import Header from "./Components/header";
 import Banner from "./Components/banner";
 import Footer from "./Components/footer";
 
 export default function Home() {
   return (
     <>
-      <HeaderNew />
+      <Header />
       <div className="layout">
           <Banner />
       </div>

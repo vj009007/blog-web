@@ -1,5 +1,5 @@
 "use client";
-import HeaderNew from "./../Components/header";
+import HeaderNew from "./../Components/header-new";
 import Banner from "./../Components/banner";
 import Footer from "./../Components/footer";
 

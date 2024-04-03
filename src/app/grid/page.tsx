@@ -1,5 +1,5 @@
 "use client";
-import HeaderNew from "./../Components/header-new";
+import HeaderNew from "./../Components/header";
 import GridContent from "./../Components/grid";
 import Footer from "./../Components/footer";
 
