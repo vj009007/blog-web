@@ -226,7 +226,7 @@ export default function Banner() {
     
         <section className="py-10">
             <div className="container">
-                <div className="grid mx-auto grid-cols-12gap-8">
+                <div className="grid mx-auto grid-cols-12 gap-8">
                     <div className="lg:col-span-3 md:col-span-6 col-span-12 border-t border-dashed border-[#e6e6e6] pt-6">
                         <p className="text-[#3f3ba6] mb-4 text-[1.3333333334rem]">News</p>
                         <article>
