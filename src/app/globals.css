@@ -137,6 +137,7 @@ article p{
 .ad-slot img{
   @apply lg:max-w-[50%] mx-auto px-4
 }
+
 @media (max-width: 1280px){
   .overlay-content h2{
     @apply text-[17px] leading-5
@@ -162,5 +163,8 @@ article p{
   }
   .date-style{
     @apply absolute top-[100px] left-1/2 translate-x-[-50%]
+  }
+  .grid-wrapper h1{
+    @apply text-xl
   }
 }

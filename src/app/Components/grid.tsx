@@ -59,7 +59,7 @@ export default function Grid() {
                             <div className="relative">
                                 <Image src={bigImage} alt="images" />                                
                                 <div className="overlay-content">
-                                <   a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
+                                <a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     <h1><a href="#" className="text-white">  How much does it cost to win Best Picture? Breaking down the biggest and smallest budgets.</a></h1>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ export default function Grid() {
                             <div className="relative mt-5">
                                 <Image src={bigImage} alt="images" />                                
                                 <div className="overlay-content">
-                                <   a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
+                                <a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     <h1><a href="#" className="text-white">  How much does it cost to win Best Picture? Breaking down the biggest and smallest budgets.</a></h1>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default function Grid() {
                             <div className="relative mt-5">
                                 <Image src={bigImage} alt="images" />                                
                                 <div className="overlay-content">
-                                <   a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
+                                    <a href="##" className="badge-large absolute bottom-32 left-1/2 translate-x-[-50%]">Stacker Studio</a>
                                     <h1><a href="#" className="text-white">  How much does it cost to win Best Picture? Breaking down the biggest and smallest budgets.</a></h1>
                                 </div>
                             </div>
