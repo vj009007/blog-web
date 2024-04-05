@@ -18,19 +18,17 @@ export default function Header() {
       <header className='relative'>
         <div className='container'>
           <div className='flex items-center justify-between pb-4 border-b border-solid border-[#ddd]'>
-            <div className='date-style block'>
-              {!menuOpen && (
-                <div className='date-style block'>
-                  <span>Thursday,</span> March 21, 2024
-                </div>
-              )}
-            </div>
+            {!menuOpen && (
+              <div className='date-style block'>
+                <span>Thursday,</span> March 21, 2024
+              </div>
+            )}
             <div className='max-w-[220px]'>
               <a href='#'>
                 <Image src={logo} alt='' />
               </a>
             </div>
-            <ul className='header-icons list-none items-center gap-4 hidden lg:flex'>
+            <div className='header-icons list-none items-center gap-4 hidden lg:flex'>
               <li>
                 <a href='#'>
                   <i className='fa-brands fa-x-twitter'></i>
@@ -46,7 +44,7 @@ export default function Header() {
                   <i className='fa-solid fa-rss'></i>
                 </a>
               </li>
-            </ul>
+            </div>
             <div className='hamburger block lg:hidden' onClick={toggleMenu}>
               <i
                 className={`fa-solid ${menuOpen ? "fa-times" : "fa-bars"}`}
@@ -90,6 +88,24 @@ export default function Header() {
               <li className='menu-item'>
                 <a href='#'>About Us</a>
               </li>
+              {/* Social icons for mobile */}
+              <ul className='flex flex-row justify-center header-icons list-none items-center gap-4 block lg:hidden'>
+                <li>
+                  <a href='#'>
+                    <i className='fa-brands fa-x-twitter'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i className='fa-brands fa-facebook-f'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i className='fa-solid fa-rss'></i>
+                  </a>
+                </li>
+              </ul>
             </ul>
           </nav>
         </div>
